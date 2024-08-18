@@ -11,15 +11,15 @@
 <div class="container">
     <p class="intro">Welcome to Frost's Media Library. A collection of media spanning across multiple genres and
         formats such as text, images, audio and video.<br>
-        Sign up to get started.
+        Sign up <em>now</em> to get started.
     </p>
-    <span>You know you want to.</span>
+    <span>You <em>know</em> you want to.</span>
 
     <form action="" method="post">
 
         <p class="first-name">
             <label for="first-name">FIRST NAME*</label>
-        <input type="text" name="first-name id="first-name" required>
+        <input type="text" name="first-name" id="first-name" required>
         </p>
 
         <p class="last-name">
@@ -39,12 +39,14 @@
 
         <p class="password">
         <label for="password">PASSWORD*</label>
-        <input type="password" name="password" id="password" required>
+        <input type="password" name="password" id="password" minlength="7" required>
+        <span></span>
         </p>
 
         <p class="confirm">
         <label for="confirm-password">CONFIRM PASSWORD*</label>
-        <input type="password" name="confirm-password id="confirm-password">
+        <input type="password" name="confirm-password" id="confirm-password" minlength="7" required>
+        <span></span>
         </p>
 
         <p class="submit-btn">
